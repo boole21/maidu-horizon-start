@@ -1,50 +1,84 @@
-# Node modules
+# Shopify Theme .gitignore
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor directories and files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Node modules (if using npm packages)
 node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
 
-# OS files
-.DS_Store
-Thumbs.db
-._*
-
-# Editor files
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
-.project
-.classpath
-.settings/
-
-# Build files
-.cache/
-.tmp/
+# Build outputs
 dist/
 build/
-*.css.map
 
-# Shopify files
-.shopify/
-.theme-check-cache/
-
-# Lock files
-pnpm-lock.yaml
-package-lock.json
-yarn.lock
-
-# Environment files
+# Environment variables
 .env
 .env.local
 .env.*.local
 
-# Test files
+# Logs
+logs
+*.log
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# Shopify CLI
+.shopify/
+
+# Theme kit
+theme.lock
+
+# Compiled assets
+*.css.map
+*.js.map
+
+# Cache
+.cache/
+
+# Backup files
+*.bak
+*.backup
+
+# Local development files
+config/settings_data.json
+config/settings_schema.json.backup
+
+# Ignore local config that shouldn't be shared
+config.yml
+
+# Ignore any local test files
+test/
+tests/
+*.test.js
+*.spec.js
+
+# Ignore coverage reports
 coverage/
 .nyc_output/
 
-# Logs
-logs/
-*.log
+# Ignore package files
+package.json
+package-lock.json
+yarn.lock
+
+# Ignore any custom local files
+local/
+local.*
