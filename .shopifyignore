@@ -1,0 +1,72 @@
+# Configuration files
+package.json
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+pnpm-lock.yaml
+tsconfig.json
+jsconfig.json
+
+# Development tools
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+
+# Build and cache
+node_modules/
+.cache/
+.tmp/
+dist/
+build/
+*.css.map
+
+# Documentation
+README.md
+LICENSE
+CHANGELOG.md
+CONTRIBUTING.md
+
+# Test files
+tests/
+coverage/
+.nyc_output/
+*.test.js
+*.spec.js
+
+# Git files
+.git/
+.gitignore
+.gitattributes
+
+# Shopify CLI files
+.shopify/
+.theme-check-cache/
+
+# Environment files
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+._*
+
+# Editor files
+.editorconfig
+.eslintrc*
+.prettierrc*
+.stylelintrc*

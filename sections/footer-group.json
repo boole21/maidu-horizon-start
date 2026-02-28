@@ -102,31 +102,129 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "email_signup_BFyhFM": {
+              "type": "email-signup",
+              "settings": {
+                "width": "fill",
+                "custom_width": 100,
+                "inherit_color_scheme": true,
+                "color_scheme": "",
+                "heading": "",
+                "heading_preset": "h3",
+                "border_style": "all",
+                "border_width": 1,
+                "border_radius": 100,
+                "input_type_preset": "paragraph",
+                "style_class": "button-unstyled",
+                "display_type": "arrow",
+                "label": "Sign up",
+                "integrated_button": true,
+                "button_type_preset": "paragraph",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
+            "social_links_YQiLNU": {
+              "type": "social-links",
+              "settings": {
+                "facebook_url": "https://www.facebook.com/",
+                "instagram_url": "https://www.instagram.com/",
+                "youtube_url": "https://www.youtube.com/",
+                "tiktok_url": "https://www.tiktok.com/",
+                "twitter_url": "https://x.com/",
+                "threads_url": "",
+                "linkedin_url": "",
+                "bluesky_url": "",
+                "snapchat_url": "",
+                "pinterest_url": "",
+                "tumblr_url": "",
+                "vimeo_url": "",
+                "custom_url": ""
+              },
+              "blocks": {}
+            },
+            "payment_icons_f6Hrhe": {
+              "type": "payment-icons",
+              "name": "t:names.payment_icons",
+              "settings": {
+                "horizontal_alignment": "flex-start",
+                "gap": 10,
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
             "text_LWt8Pz",
-            "text_f9CFLH"
+            "text_f9CFLH",
+            "email_signup_BFyhFM",
+            "social_links_YQiLNU",
+            "payment_icons_f6Hrhe"
           ]
         },
-        "email_signup_crihX7": {
-          "type": "email-signup",
+        "menu_Hhrq89": {
+          "type": "menu",
+          "name": "t:names.menu",
           "settings": {
-            "width": "fill",
-            "custom_width": 100,
-            "inherit_color_scheme": true,
+            "menu": "main-menu",
             "heading": "",
-            "heading_preset": "h3",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
             "color_scheme": "",
-            "border_style": "all",
-            "border_width": 1,
-            "border_radius": 100,
-            "input_type_preset": "paragraph",
-            "style_class": "button-unstyled",
-            "display_type": "arrow",
-            "label": "Sign up",
-            "integrated_button": true,
-            "button_type_preset": "paragraph",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "menu_NgARYe": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
+            "padding-block-start": 0,
+            "padding-block-end": 0,
+            "padding-inline-start": 0,
+            "padding-inline-end": 0
+          },
+          "blocks": {}
+        },
+        "menu_PPpWaK": {
+          "type": "menu",
+          "name": "t:names.menu",
+          "settings": {
+            "menu": "main-menu",
+            "heading": "",
+            "menu_spacing": 12,
+            "show_as_accordion": false,
+            "accordion_icon": "caret",
+            "accordion_dividers": false,
+            "inherit_color_scheme": true,
+            "color_scheme": "",
+            "heading_preset": "h3",
+            "link_preset": "paragraph",
             "padding-block-start": 0,
             "padding-block-end": 0,
             "padding-inline-start": 0,
@@ -137,7 +235,9 @@
       },
       "block_order": [
         "group_H6VpwJ",
-        "email_signup_crihX7"
+        "menu_Hhrq89",
+        "menu_NgARYe",
+        "menu_PPpWaK"
       ],
       "name": "t:names.footer",
       "settings": {
@@ -167,31 +267,11 @@
             "case": "none"
           },
           "blocks": {}
-        },
-        "social_links_Ew63Kq": {
-          "type": "social-links",
-          "settings": {
-            "facebook_url": "https://www.facebook.com/",
-            "instagram_url": "https://www.instagram.com/",
-            "youtube_url": "https://www.youtube.com/",
-            "tiktok_url": "https://www.tiktok.com/",
-            "twitter_url": "https://x.com/",
-            "threads_url": "",
-            "linkedin_url": "",
-            "bluesky_url": "",
-            "snapchat_url": "",
-            "pinterest_url": "",
-            "tumblr_url": "",
-            "vimeo_url": "",
-            "custom_url": ""
-          },
-          "blocks": {}
         }
       },
       "block_order": [
         "footer_copyright_jweRK8",
-        "footer_policy_list_VCdnpa",
-        "social_links_Ew63Kq"
+        "footer_policy_list_VCdnpa"
       ],
       "name": "t:names.utilities",
       "settings": {
