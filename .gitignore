@@ -57,9 +57,6 @@ theme.lock
 *.bak
 *.backup
 
-# Local development files
-config/settings_data.json
-config/settings_schema.json.backup
 
 # Ignore local config that shouldn't be shared
 config.yml
