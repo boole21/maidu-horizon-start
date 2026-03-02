@@ -93,8 +93,6 @@ logs/
 coverage/
 .nyc_output/
 
-# Local config (keep only necessary files)
-config/settings_data.json
 
 # Ignore any custom local files
 local/
